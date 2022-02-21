@@ -21,6 +21,7 @@
 		4C5872A727C413F8007D3BC6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5872A627C413F8007D3BC6 /* Realm */; };
 		4C5872A927C413F8007D3BC6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5872A827C413F8007D3BC6 /* RealmSwift */; };
 		4C5872AB27C441B7007D3BC6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5872AA27C441B7007D3BC6 /* RealmManager.swift */; };
+		4C5872AD27C44EC0007D3BC6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5872AC27C44EC0007D3BC6 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		4C5872A127C3079D007D3BC6 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		4C5872A327C30C03007D3BC6 /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
 		4C5872AA27C441B7007D3BC6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4C5872AC27C44EC0007D3BC6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		4C58726127C30222007D3BC6 = {
 			isa = PBXGroup;
 			children = (
+				4C5872AC27C44EC0007D3BC6 /* Task.swift */,
 				4C5872AA27C441B7007D3BC6 /* RealmManager.swift */,
 				4C58729A27C303DD007D3BC6 /* Components */,
 				4C58729927C302B3007D3BC6 /* Views */,
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5872AD27C44EC0007D3BC6 /* Task.swift in Sources */,
 				4C58727027C30222007D3BC6 /* ContentView.swift in Sources */,
 				4C5872A227C3079D007D3BC6 /* AddTaskView.swift in Sources */,
 				4C58726E27C30222007D3BC6 /* ToDoListApp.swift in Sources */,
@@ -472,6 +476,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +506,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
