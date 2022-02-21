@@ -20,6 +20,7 @@
 		4C5872A427C30C03007D3BC6 /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5872A327C30C03007D3BC6 /* SmallAddButton.swift */; };
 		4C5872A727C413F8007D3BC6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5872A627C413F8007D3BC6 /* Realm */; };
 		4C5872A927C413F8007D3BC6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5872A827C413F8007D3BC6 /* RealmSwift */; };
+		4C5872AB27C441B7007D3BC6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5872AA27C441B7007D3BC6 /* RealmManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4C58729F27C30786007D3BC6 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		4C5872A127C3079D007D3BC6 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		4C5872A327C30C03007D3BC6 /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
+		4C5872AA27C441B7007D3BC6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		4C58726127C30222007D3BC6 = {
 			isa = PBXGroup;
 			children = (
+				4C5872AA27C441B7007D3BC6 /* RealmManager.swift */,
 				4C58729A27C303DD007D3BC6 /* Components */,
 				4C58729927C302B3007D3BC6 /* Views */,
 				4C58726C27C30222007D3BC6 /* ToDoList */,
@@ -301,6 +304,7 @@
 				4C58726E27C30222007D3BC6 /* ToDoListApp.swift in Sources */,
 				4C5872A427C30C03007D3BC6 /* SmallAddButton.swift in Sources */,
 				4C58729E27C30442007D3BC6 /* TaskRow.swift in Sources */,
+				4C5872AB27C441B7007D3BC6 /* RealmManager.swift in Sources */,
 				4C5872A027C30786007D3BC6 /* TaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,8 +636,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.10.0;
+				kind = exactVersion;
+				version = 10.10.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
